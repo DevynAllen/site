@@ -65,6 +65,10 @@ section h2 {
 }
 
 .package {
+    margin-bottom: 2% !important
+}
+
+.package * {
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -74,8 +78,9 @@ section h2 {
     color: rgb(255, 200, 46)
 }
 
-.package-description {
+.package-notes {
     margin-top: 0;
+    color: red;
 }
 
 .price {
