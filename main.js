@@ -1,9 +1,3 @@
-//Load on student page
-document.getElementById("photographer").style.display = 'none';
-document.getElementById("developer").style.display = 'none';
-document.getElementById("studentLabel").style.textDecoration = 'underline'
-document.getElementById("studentLabel").style.color = 'rgb(220, 220, 220)'
-
 function showContent(content) {
     if (content == 'student') {
         document.getElementById("student").style.display = '';

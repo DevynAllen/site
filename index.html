@@ -19,7 +19,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body onload="showContent('student')">
+<body>
     <div class="container">
         <header>
             <h1 class="letters">
@@ -28,7 +28,8 @@
                 Allen
             </h1>
             <h2 class="labels">
-                <span id="studentLabel" onclick="showContent('student')">Student</span>
+                <span id="studentLabel" onclick="showContent('student')"
+                    style="text-decoration: underline; color: rgb(220, 220, 220);">Student</span>
                 | <span id="photographerLabel" onclick="showContent('photographer')">Photographer</span>
                 | <span id="developerLabel" onclick="showContent('developer')">Developer</span>
             </h2>
@@ -70,7 +71,7 @@
             </p>
             <p>Stay tuned for updates.</p>
         </section>
-        <section id="photographer">
+        <section id="photographer" style="display: none;">
             <h2>The Photographer</h2>
             <p>I was introduced to photography my Junior year of high school. On the track team, I had two roles;
                 sprinter and photographer. One of my teammates loved the pictures so much that she asked me to take
@@ -217,7 +218,7 @@
                             href="mailto:devyniallen@gmail.com">here.</a></p>
                 </div>
         </section>
-        <section id="developer">
+        <section id="developer" style="display: none;">
             <h2>The Developer</h2>
             <p>To be honest, I'm not sure whether to call myself a
                 developer or an engineer, but I'll stick with the
