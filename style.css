@@ -89,11 +89,27 @@ section h2 {
 
 .img {
     margin-bottom: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.img-large {
+    width: 75%;
+    height: 75%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.img-description-title {
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 16px;
 }
 
 .img-description {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @media only screen and (max-width:450px) {
@@ -106,7 +122,13 @@ section h2 {
     }
     .img {
         width: 75%;
-        height: 75%
+        height: 75%;
+        text-align: center;
+    }
+    .img-large {
+        width: 75%;
+        height: 75%;
+        text-align: center;
     }
 }
 
@@ -117,5 +139,10 @@ section h2 {
     .labels {
         padding: 4px;
         font-size: 18px;
+    }
+    .img-large {
+        width: 75%;
+        height: 75%;
+        text-align: center;
     }
 }
