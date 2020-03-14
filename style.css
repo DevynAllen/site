@@ -93,13 +93,6 @@ section h2 {
     margin: auto;
 }
 
-.img-large {
-    width: 75%;
-    height: 75%;
-    text-align: center;
-    margin-bottom: 0;
-}
-
 .img-description-title {
     font-weight: 800;
     margin-bottom: 0;
@@ -139,10 +132,5 @@ section h2 {
     .labels {
         padding: 4px;
         font-size: 18px;
-    }
-    .img-large {
-        width: 75%;
-        height: 75%;
-        text-align: center;
     }
 }
