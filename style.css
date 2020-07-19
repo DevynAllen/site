@@ -66,17 +66,17 @@ a {
     outline: none !important;
 }
 
-#banner {
+#content {
     /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
     color: black;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .social-links a {
     font-size: 25px;
-    padding: 0 8px;
-    /* color: #444 */
-    color: black;
+    padding: 0 4px;
+    color: #444
+    /* color: black; */
 }
 
 .labels {

@@ -13,11 +13,13 @@ function showContent(sectionParam, labelParam, imgParam) {
 
     labelOptions.forEach(label => {
         if (label === labelParam) {
-            document.getElementById(label).style.textDecoration = 'underline'
+            // document.getElementById(label).style.textDecoration = 'underline'
             document.getElementById(label).style.color = 'rgb(80, 45, 127)'
+            document.getElementById(label).style.fontWeight = '800'
         } else {
             document.getElementById(label).style.textDecoration = 'none'
             document.getElementById(label).style.color = '#222'
+            document.getElementById(label).style.fontWeight = '300'
         }
     })
 
