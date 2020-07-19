@@ -15,7 +15,7 @@
 body {
     font-family: sans-serif;
     display: block;
-    background-color: whitesmoke !important;
+    background-color: rgb(240, 228, 218) !important;
     font-family: Lato, sans-serif
 }
 
@@ -83,7 +83,7 @@ header {
 
 @media only screen and (max-width:450px) {
     .letters {
-        font-size: 30px !important;
+        font-size: 42px !important;
     }
     .labels {
         padding: 4px;

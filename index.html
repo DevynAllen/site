@@ -37,17 +37,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experiences <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Pricing</a>
                 </li>
               </ul>
-              <span class="navbar-text">
+              <span class="navbar-text" style="color: red;">
                 Jeremiah 17:7-8
               </span>
             </div>
@@ -65,16 +65,16 @@
                     <!-- <h1 class="letters">Devyn<span>&nbsp;</span>Allen</h1> -->
 
                     <h4 class="labels text-center">
-                        <span id="studentLabel" onclick="showContent('student', 'studentLabel')"  style="text-decoration: underline; color: rgb(220, 220, 220);">Student</span>
-                        | <span id="founderLabel" onclick="showContent('founder', 'founderLabel')">Founder</span>
-                        | <span id="engineerLabel" onclick="showContent('engineer', 'engineerLabel')">Engineer</span>
+                        <span id="studentLabel" onclick="showContent('student', 'studentLabel', 'student-img')"  style="text-decoration: underline; color: rgb(80, 45, 127);">Student</span>
+                        | <span id="founderLabel" onclick="showContent('founder', 'founderLabel', 'founder-img')">Founder</span>
+                        | <span id="engineerLabel" onclick="showContent('engineer', 'engineerLabel', 'engineer-img')">Engineer</span>
                     </h4>
 
                     <hr />
                 </header>
 
                 <section id="student">
-                    <h5>The Student</h5>
+                    <h4>The Student</h4>
                     <p>I'm a senior studying computer science at <span id="pvGold">Prairie View A&M University</span>.
                         Initially, I chose to study computer science because I wanted to be a game developer, but as I got older, I outgrew
                         that dream. Now, I study computer science because I believe that code can change the
@@ -84,12 +84,12 @@
                 </section>
 
                 <section id="founder" style="display: none;">
-                    <h5>The Founder</h5>
+                    <h4>The Founder</h4>
                     <p>yerrr</p>
                 </section>
 
                 <section id="engineer" style="display: none;">
-                    <h5>The Engineer</h5>
+                    <h4>The Engineer</h4>
                     <p>Engineer boi</p>
                 </section>   
                                 
@@ -110,10 +110,9 @@
 
             </div>
             <div class="col-md-6">
-                <!-- <img src="./assets/images/Student.png" class="img-fluid">    -->
-                <img src="./assets/images/Student2.png" class="img-fluid">   
-                <img src="./assets/images/Engineer.png" class="img-fluid" style="display: none;"> 
-                <img src="./assets/images/Founder.png" class="img-fluid" style="display: none;">
+                <img src="./assets/images/Student.png" class="img-fluid" id='student-img'>   
+                <img src="./assets/images/Founder.png" class="img-fluid" id='founder-img' style="display: none;">
+                <img src="./assets/images/Engineer.png" class="img-fluid" id='engineer-img' style="display: none;"> 
             </div>
         </div>
     </div>
