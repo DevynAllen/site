@@ -7,50 +7,20 @@
     color: rgb(255, 200, 46)
 }
 
-#booking h3 {
-    color: rgb(80, 45, 127);
-    margin-bottom: 0;
-}
-
-#booking p {
-    margin-top: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-weight: 400;
-    color: #222;
+    font-family: sans-serif;
+    display: block;
+    background-color: whitesmoke !important;
     font-family: Lato, sans-serif
 }
 
 header {
     text-align: center
-}
-
-hr {
-    margin-top: 10px;
-    border-width: 0;
-    border-top: 2px solid #222;
-    width: 80px
-}
-
-section {
-    margin: 30px;
-}
-
-section h2 {
-    color: rgb(227, 24, 55)
-}
-
-.container {
-    max-width: 800px;
-    margin: 60px auto !important;
-}
-
-.social-links a {
-    font-size: 25px;
-    padding: 0 8px;
-    text-decoration: none;
-    color: #444
 }
 
 .letters {
@@ -64,45 +34,51 @@ section h2 {
     letter-spacing: -4px
 }
 
-.package {
-    margin-bottom: 2% !important
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-.package * {
-    margin-bottom: 0;
-    margin-top: 0;
+.navbar {
+    padding: 0 !important;
+    margin-top: 2%;
 }
 
-.packages-title {
-    margin-bottom: 0;
-    color: rgb(255, 200, 46)
+.navbar-brand {
+    height: 40px;
 }
 
-.package-notes {
-    margin-top: 0;
-    color: red;
+.navbar-nav li {
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.price {
-    color: green;
+.navbar-nav li a {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
 }
 
-.img {
-    margin-bottom: 0;
-    text-align: center;
-    margin: auto;
+.navbar-toggler {
+    outline: none !important;
 }
 
-.img-description-title {
-    font-weight: 800;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 16px;
+#banner {
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    color: black;
+    padding-top: 5%;
 }
 
-.img-description {
-    margin-top: 0;
-    font-size: 16px;
+.social-links a {
+    font-size: 25px;
+    padding: 0 8px;
+    text-decoration: none !important;
+    color: #444
+}
+
+.labels {
+    cursor: pointer;
 }
 
 @media only screen and (max-width:450px) {
@@ -111,17 +87,8 @@ section h2 {
     }
     .labels {
         padding: 4px;
+        margin-top: 2%;
         font-size: 20px;
-    }
-    .img {
-        width: 75%;
-        height: 75%;
-        text-align: center;
-    }
-    .img-large {
-        width: 75%;
-        height: 75%;
-        text-align: center;
     }
 }
 

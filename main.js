@@ -1,39 +1,22 @@
-function showContent(content) {
-    if (content == 'student') {
-        document.getElementById("student").style.display = '';
-        document.getElementById("photographer").style.display = 'none';
-        document.getElementById("developer").style.display = 'none';
+function showContent(sectionParam, labelParam) {
+    sectionOptions = ['student', 'founder', 'engineer']
+    labelOptions = ['studentLabel', 'founderLabel', 'engineerLabel']
 
-        document.getElementById("studentLabel").style.textDecoration = 'underline'
-        document.getElementById("studentLabel").style.color = 'rgb(220, 220, 220)'
-        document.getElementById("photographerLabel").style.textDecoration = 'none'
-        document.getElementById("photographerLabel").style.color = '#222'
-        document.getElementById("developerLabel").style.textDecoration = 'none'
-        document.getElementById("developerLabel").style.color = '#222'
-    }
-    if (content == 'photographer') {
-        document.getElementById("student").style.display = 'none';
-        document.getElementById("photographer").style.display = '';
-        document.getElementById("developer").style.display = 'none';
+    sectionOptions.forEach(section => {
+        if (section === sectionParam) {
+            document.getElementById(section).style.display = '';
+        } else {
+            document.getElementById(section).style.display = 'none';
+        }
+    })
 
-        document.getElementById("photographerLabel").style.textDecoration = 'underline'
-        document.getElementById("photographerLabel").style.color = 'rgb(220, 220, 220)'
-        document.getElementById("studentLabel").style.textDecoration = 'none'
-        document.getElementById("studentLabel").style.color = '#222'
-        document.getElementById("developerLabel").style.textDecoration = 'none'
-        document.getElementById("developerLabel").style.color = '#222'
-
-    }
-    if (content == 'developer') {
-        document.getElementById("student").style.display = 'none';
-        document.getElementById("photographer").style.display = 'none';
-        document.getElementById("developer").style.display = '';
-
-        document.getElementById("developerLabel").style.textDecoration = 'underline'
-        document.getElementById("developerLabel").style.color = 'rgb(220, 220, 220)'
-        document.getElementById("studentLabel").style.textDecoration = 'none'
-        document.getElementById("studentLabel").style.color = '#222'
-        document.getElementById("photographerLabel").style.textDecoration = 'none'
-        document.getElementById("photographerLabel").style.color = '#222'
-    }
+    labelOptions.forEach(label => {
+        if (label === labelParam) {
+            document.getElementById(label).style.textDecoration = 'underline'
+            document.getElementById(label).style.color = 'rgb(220, 220, 220)'
+        } else {
+            document.getElementById(label).style.textDecoration = 'none'
+            document.getElementById(label).style.color = '#222'
+        }
+    })
 }
