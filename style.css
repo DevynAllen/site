@@ -14,10 +14,10 @@
 
 body {
     font-family: sans-serif;
-    display: block;
-    background-color: rgb(250, 250, 250) !important;
+    /* display: block; */
     font-family: Lato, sans-serif;
-    height: 100%;
+    height: auto !important;
+    background-color: rgb(250, 250, 250);
 }
 
 a {
@@ -30,16 +30,16 @@ a {
     font-size: 70px;
     font-weight: 800;
     mix-blend-mode: darken;
-    opacity: .8;
+    /* opacity: .8; */
     text-transform: uppercase;
     letter-spacing: -4px
 }
 
-#nav-bar {
+/* #nav-bar {
     position: sticky;
     top: 0;
     z-index: 10;
-}
+} */
 
 .navbar {
     padding: 0 !important;
@@ -67,9 +67,14 @@ a {
 }
 
 #content {
-    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
     color: black;
     padding-top: 3%;
+}
+
+#projects {
+    /* background-color: white !important; */
+    background-color: rgb(250, 250, 250);
+    height: auto;
 }
 
 .social-links a {
@@ -77,6 +82,10 @@ a {
     padding: 0 4px;
     color: #444
     /* color: black; */
+}
+
+.social-links a:hover {
+    color: red;
 }
 
 .labels {
