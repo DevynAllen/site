@@ -47,11 +47,9 @@
                   <a class="nav-link" href="#">Pricing</a>
                 </li>
               </ul>
-              <span class="navbar-text" style="color: red;">
-                Jeremiah 17:7-8
-              </span>
             </div>
           </nav>
+          <hr>
     </div>
 </section>
 
@@ -62,37 +60,49 @@
             <div class="col-md-6">
 
                 <header>
-                    <!-- <h1 class="letters">Devyn<span>&nbsp;</span>Allen</h1> -->
-
-                    <h4 class="labels text-center">
-                        <span id="studentLabel" onclick="showContent('student', 'studentLabel', 'student-img')"  style="text-decoration: underline; color: rgb(80, 45, 127);">Student</span>
-                        | <span id="founderLabel" onclick="showContent('founder', 'founderLabel', 'founder-img')">Founder</span>
-                        | <span id="engineerLabel" onclick="showContent('engineer', 'engineerLabel', 'engineer-img')">Engineer</span>
-                    </h4>
-
-                    <hr />
+                    <h2 class="letters">Devyn<span>&nbsp;</span>Allen</h2>
+                    <!-- <hr /> -->
                 </header>
 
-                <section id="student">
-                    <h4>The Student</h4>
-                    <p>I'm a senior studying computer science at <span id="pvGold">Prairie View A&M University</span>.
-                        Initially, I chose to study computer science because I wanted to be a game developer, but as I got older, I outgrew
-                        that dream. Now, I study computer science because I believe that code can change the
-                        🌍. I want to use the skills I gain from computer science to solve educational, economical and social
-                        issues.
-                    </p>
-                </section>
+                <div style="margin-top: 2%;">
+                    <section id="student">
+                        <h4>The Student</h4>
+                        <p>I'm a senior studying computer science at <span id="pvGold">Prairie View A&M University</span>.
+                            Initially, I chose to study computer science because I wanted to be a game developer, but as I got older, I outgrew
+                            that dream. Now, I study computer science because I believe that code can change the
+                            🌍. I want to use the skills I gain from computer science to solve educational, economical and social
+                            issues.
+                        </p>
+                    </section>
+    
+                    <section id="entrepreneur" style="display: none;">
+                        <h4>The Entrepreneur</h4>
+                        <p>Middle school is where it all began. At the time, I was addicted to a game called Runescape. Being the inquisitive kid that I was, I often wondered how games such 
+                            as Runescape worked. A few days of research led me to download a copy of the game’s source and client files, 
+                            and with it, my own version of Runescape — I called it <a href="https://www.youtube.com/watch?v=VgzJpLhwyrE" target='_blank' style="text-decoration: none; ">Convivial</a>. I explored and edited lines 
+                            upon lines of code to ensure that Convivial differed drastically from Runescape. Through Convivial I introduced myself to computer science and 
+                            unknowingly taught myself how to write code. I was in the 10th grade or so when I started making money from Convivial. Since then, I’ve understood that I am capable of supporting myself and being my own boss. This is why I aspire to be an entrepreneur today.
+                        </p>
+                    </section>
+    
+                    <section id="developer" style="display: none;">
+                        <h4>The Developer</h4>
+                        <p>I'm a senior studying computer science at <span id="pvGold">Prairie View A&M University</span>.
+                            Initially, I chose to study computer science because I wanted to be a game developer, but as I got older, I outgrew
+                            that dream. Now, I study computer science because I believe that code can change the
+                            🌍. I want to use the skills I gain from computer science to solve educational, economical and social
+                            issues.
+                        </p>
+                    </section>   
+                </div>
 
-                <section id="founder" style="display: none;">
-                    <h4>The Founder</h4>
-                    <p>yerrr</p>
-                </section>
+                <h6 class="labels">
+                    <span id="studentLabel" onclick="showContent('student', 'studentLabel', 'student-img')"  style="text-decoration: underline; color: rgb(80, 45, 127);">Student</span>
+                    | <span id="entrepreneurLabel" onclick="showContent('entrepreneur', 'entrepreneurLabel', 'entrepreneur-img')">Entrepreneur</span>
+                    | <span id="developerLabel" onclick="showContent('developer', 'developerLabel', 'developer-img')">Developer</span>
+                </h6>        
+                
 
-                <section id="engineer" style="display: none;">
-                    <h4>The Engineer</h4>
-                    <p>Engineer boi</p>
-                </section>   
-                                
                 <div class="social-links">
                     <a target="_blank" href="https://twitter.com/soydevyna">
                         <i class="fab fa-twitter" title="Twitter"></i>
@@ -111,8 +121,8 @@
             </div>
             <div class="col-md-6">
                 <img src="./assets/images/Student.png" class="img-fluid" id='student-img'>   
-                <img src="./assets/images/Founder.png" class="img-fluid" id='founder-img' style="display: none;">
-                <img src="./assets/images/Engineer.png" class="img-fluid" id='engineer-img' style="display: none;"> 
+                <img src="./assets/images/Entrepreneur.png" class="img-fluid" id='entrepreneur-img' style="display: none;">
+                <img src="./assets/images/Developer.png" class="img-fluid" id='developer-img' style="display: none;"> 
             </div>
         </div>
     </div>

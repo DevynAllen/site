@@ -1,7 +1,7 @@
 function showContent(sectionParam, labelParam, imgParam) {
-    sectionOptions = ['student', 'founder', 'engineer']
-    labelOptions = ['studentLabel', 'founderLabel', 'engineerLabel']
-    imgOptions = ['student-img', 'founder-img', 'engineer-img']
+    sectionOptions = ['student', 'entrepreneur', 'developer']
+    labelOptions = ['studentLabel', 'entrepreneurLabel', 'developerLabel']
+    imgOptions = ['student-img', 'entrepreneur-img', 'developer-img']
 
     sectionOptions.forEach(section => {
         if (section === sectionParam) {
