@@ -24,16 +24,6 @@ a {
     text-decoration: none !important;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
 .letters {
     /* margin-bottom: -10px; */
     /* margin-top: -40px; */
@@ -85,7 +75,8 @@ a {
 .social-links a {
     font-size: 25px;
     padding: 0 8px;
-    color: white !important;
+    /* color: #444 */
+    color: black;
 }
 
 .labels {
