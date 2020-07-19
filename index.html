@@ -39,11 +39,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Projects</a>
-                    </li>
+                    </li> -->
                 </ul>
-         
             </div>
         </nav>
         <hr>
@@ -93,7 +92,28 @@
                     </section>
     
                     <section id="entrepreneur" style="display: none;">
-                        <h4>The Entrepreneur</h4>
+                        <h4>The Entrepreneur - 
+                            <span class="social-links">
+                            <a target="_blank" href="https://twitter.com/soydevyna">
+                                <i class="fab fa-twitter" title="Twitter"></i>
+                            </a>  
+                            <a target="_blank" href="https://Instagram.com/soydevyna">
+                                <i class="fab fa-instagram" title="Instagram"></i>
+                            </a>     
+                            <a target="_blank" href="https://www.linkedin.com/in/devyn-allen/">
+                                <i class="fab fa-linkedin" title="Linkedin"></i>
+                            </a>     
+                            <a href="mailto:devyniallen@gmail.com">
+                                <i class="far fa-envelope" title="Mail"></i>
+                            </a>                                                                    
+                            <a target="_blank" href="assets/files/Devyn Allen Resume.pdf">                        
+                                <i class="far fa-file" title="Resume"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-trash" title="Trash"></i>
+                            </a>
+                        </span>
+                        </h4>
                         <p>Middle school is where it all began. At the time, I was addicted to a game called Runescape. Being the inquisitive kid that I was, I often wondered how games such 
                             as Runescape worked. A few days of research led me to download a copy of the game’s source and client files, 
                             and with it, my own version of Runescape — I called it <a href="https://www.youtube.com/watch?v=VgzJpLhwyrE" target='_blank' style="color: red;">Convivial</a>. I explored and edited lines 
@@ -103,7 +123,28 @@
                     </section>
     
                     <section id="developer" style="display: none;">
-                        <h4>The Developer</h4>
+                        <h4>The Developer - 
+                            <span class="social-links">
+                                <a target="_blank" href="https://twitter.com/soydevyna">
+                                    <i class="fab fa-twitter" title="Twitter"></i>
+                                </a>  
+                                <a target="_blank" href="https://Instagram.com/soydevyna">
+                                    <i class="fab fa-instagram" title="Instagram"></i>
+                                </a>     
+                                <a target="_blank" href="https://www.linkedin.com/in/devyn-allen/">
+                                    <i class="fab fa-linkedin" title="Linkedin"></i>
+                                </a>     
+                                <a href="mailto:devyniallen@gmail.com">
+                                    <i class="far fa-envelope" title="Mail"></i>
+                                </a>                                                                    
+                                <a target="_blank" href="assets/files/Devyn Allen Resume.pdf">                        
+                                    <i class="far fa-file" title="Resume"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-trash" title="Trash"></i>
+                                </a>
+                            </span>
+                        </h4>
                         <p>I'm not sure whether to call myself a developer or an engineer, but I'll stick with the
                             former because "Dev the Dev" sounds dope. Nonetheless, nowadays, my focus has been mobile app development, particularly for 
                             <a href="https://gBook.io" target="_blank"><span style="color: rgb(55,154,57);">gBook.io</a>.
@@ -113,29 +154,27 @@
                 </div>
 
                 <div style="margin-top: 20px;">
-                    <h6 class="labels text-center">
-                        <span id="studentLabel" onclick="showContent('student', 'studentLabel', 'student-img')"  style="color: rgb(80, 45, 127); font-weight: 800;">Student</span>
-                        | <span id="entrepreneurLabel" onclick="showContent('entrepreneur', 'entrepreneurLabel', 'entrepreneur-img')" style="font-weight: 300;">Entrepreneur</span>
-                        | <span id="developerLabel" onclick="showContent('developer', 'developerLabel', 'developer-img')" style="font-weight: 300;">Developer</span>
-                    </h6>        
+                    <h4 class="labels text-center">
+                        <span id="studentLabel" onclick="showContent('student', 'studentLabel', 'student-img', 'studentAchievements')"  style="color: rgb(80, 45, 127); font-weight: 800;">Student</span>
+                        | <span id="entrepreneurLabel" onclick="showContent('entrepreneur', 'entrepreneurLabel', 'entrepreneur-img', 'entrepreneurAchievements')" style="font-weight: 300;">Entrepreneur</span>
+                        | <span id="developerLabel" onclick="showContent('developer', 'developerLabel', 'developer-img', 'developerAchievements')" style="font-weight: 300;">Developer</span>
+                    </h4>        
                 </div>
 
-
-
-
-                <ul style="margin-top: 2%;">
+                <ul style="margin-top: 2%;" class="text-justify">
                     <div id="studentAchievements">
-                        <li>Summer 2020 - Dorm Room Fund Blueprint Investor Track</li>
-                        <li>Spring 2019 - Google Tech Exhcange Program</li>       
-                        <li>Summer 2019 - Pinterest Engage Scholar</li>
+                        <p><a href="https://www.notion.so/Meet-the-2020-Blueprint-Investor-Track-Cohort-cda17b5f75f5496986ad0f35ce809a03" target="_blank">Summer 2020 - Dorm Room Fund Blueprint Investor Track</a></p>
+                        <p><a href="https://www.pvamu.edu/blog/pvamu-part-of-googles-tech-exchange-program-in-silicon-valley/" target="_blank">Spring 2019 - Google Tech Exhcange Program</a></p>
+                        <p><a>Summer 2019 - Pinterest Engage Scholar</a></p>
                     </div>
                     <div id="entrepreneurAchievements" style="display: none;">
-                        <li>Spring 2020 - Interviewed by Houston Voyage Magazine </li>
+                        <p><a href="http://voyagehouston.com/interview/meet-devyn-allen-gbook/" target="_blank">Spring 2020 - Interviewed by Houston Voyage Magazine </a></p>
+
                     </div>
                     <div id="developerAchievements" style="display: none;">
-                        <li>Summer 2020 - Apple Software Engineering Internship</li>
-                        <li>Summer 2019 - Apple Software Engineering Internship</li>
-                        <li>Summer 2018 - Lockheed Martin Software Engineering Internship</li>                    
+                        <p><a>Summer 2020 - Apple Software Engineering Internship</a></p>                        
+                        <p><a>Summer 2019 - Apple Software Engineering Internship</a></p>
+                        <p><a>Summer 2018 - Lockheed Martin Software Engineering Internship</a></p>
                     </div>
                 </ul>
 

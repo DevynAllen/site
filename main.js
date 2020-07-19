@@ -1,14 +1,15 @@
-function showContent(sectionParam, labelParam, imgParam) {
+function showContent(sectionParam, labelParam, imgParam, achievementParam) {
     sectionOptions = ['student', 'entrepreneur', 'developer']
     labelOptions = ['studentLabel', 'entrepreneurLabel', 'developerLabel']
     imgOptions = ['student-img', 'entrepreneur-img', 'developer-img']
+    achievementOptions = ['studentAchievements', 'entrepreneurAchievements', 'developerAchievements']
 
     sectionOptions.forEach(section => {
-        if (section === sectionParam) {
+        if (section === sectionParam)
             document.getElementById(section).style.display = '';
-        } else {
+        else
             document.getElementById(section).style.display = 'none';
-        }
+
     })
 
     labelOptions.forEach(label => {
@@ -29,6 +30,13 @@ function showContent(sectionParam, labelParam, imgParam) {
         } else {
             document.getElementById(img).style.display = 'none';
         }
+    })
+
+    achievementOptions.forEach(achievement => {
+        if (achievement === achievementParam)
+            document.getElementById(achievement).style.display = '';
+        else
+            document.getElementById(achievement).style.display = 'none';
     })
 
 }
