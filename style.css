@@ -92,9 +92,8 @@ a {
     cursor: pointer;
 }
 
-#projects img {
-    margin-bottom: 100%;
-    /* background-color: rgb(250, 250, 250); */
+.project-desc {
+    margin-top: 3%;
 }
 
 @media only screen and (max-width:450px) {
