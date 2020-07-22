@@ -36,12 +36,6 @@ a {
     margin-bottom: 7%;
 }
 
-/* #nav-bar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-} */
-
 .navbar {
     padding: 0 !important;
     margin-top: 2%;
@@ -49,7 +43,6 @@ a {
 
 .navbar-brand {
     height: 40px;
-    /* font-weight: 800; */
     font-family: Kalam, sans-serif !important;
 }
 
@@ -115,14 +108,13 @@ a {
         padding: 4px;
         font-size: 18px;
     }
-    #projects img {
-        margin-top: 13%;
-        /* background-color: rgb(250, 250, 250); */
-    }
     .achievements p {
         font-size: 14px;
     }
     .project-desc {
         margin-top: 4%;
+    }
+    #projects img {
+        margin-top: 4% !important;
     }
 }
