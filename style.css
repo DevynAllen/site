@@ -35,6 +35,10 @@ a {
     letter-spacing: -4px
 }
 
+.achievements {
+    margin-bottom: 7%;
+}
+
 /* #nav-bar {
     position: sticky;
     top: 0;
@@ -72,9 +76,8 @@ a {
 }
 
 #projects {
-    /* background-color: white !important; */
-    background-color: rgb(250, 250, 250);
-    height: auto;
+    margin-top: 2%;
+    /* background-color: rgb(250, 250, 250); */
 }
 
 .social-links a {
@@ -89,6 +92,7 @@ a {
 }
 
 .labels {
+    margin: 7% 0;
     cursor: pointer;
 }
 

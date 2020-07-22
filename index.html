@@ -60,7 +60,7 @@
                     <h2 class="letters">Devyn<span>&nbsp;</span>Allen</h2>
                 </header>
 
-                <div style="margin-top: 0%;">
+                <div>
                     <section id="student">
                         <h4>The Student - 
                             <span class="social-links">
@@ -157,7 +157,7 @@
                     </section>   
                 </div>
 
-                <div style="margin: 7% 0;">
+                <div>
                     <h4 class="labels text-center">
                         <span id="studentLabel" onclick="showContent('student', 'studentLabel', 'student-img', 'studentAchievements')"  style="color: rgb(80, 45, 127); font-weight: 800;">Student</span>
                         | <span id="entrepreneurLabel" onclick="showContent('entrepreneur', 'entrepreneurLabel', 'entrepreneur-img', 'entrepreneurAchievements')" style="font-weight: 300;">Entrepreneur</span>
@@ -166,16 +166,16 @@
                 </div>
 
                 <ul class="text-justify">
-                    <div id="studentAchievements">
+                    <div class="achievements" id="studentAchievements">
                         <p><a href="https://www.notion.so/Meet-the-2020-Blueprint-Investor-Track-Cohort-cda17b5f75f5496986ad0f35ce809a03" target="_blank">Summer 2020 - Dorm Room Fund Blueprint Investor Track</a></p>
                         <p><a>Summer 2019 - Pinterest Engage Scholar</a></p>
                         <p><a href="https://www.pvamu.edu/blog/pvamu-part-of-googles-tech-exchange-program-in-silicon-valley/" target="_blank">Spring 2019 - Google Tech Exhcange Scholar</a></p>
                     </div>
-                    <div id="entrepreneurAchievements" style="display: none;">
+                    <div class="achievements" id="entrepreneurAchievements" style="display: none;">
                         <p><a href="http://voyagehouston.com/interview/meet-devyn-allen-gbook/" target="_blank">Spring 2020 - Interviewed by Houston Voyage Magazine </a></p>
 
                     </div>
-                    <div id="developerAchievements" style="display: none;">
+                    <div class="achievements" id="developerAchievements" style="display: none;">
                         <p><a>Summer 2020 - Apple Software Engineer Intern</a></p>                        
                         <p><a>Summer 2019 - Apple Software Engineer Intern</a></p>
                         <p><a>Summer 2018 - Lockheed Martin Software Engineer Intern</a></p>
@@ -192,21 +192,31 @@
     </div>
 </section>
 
-<!-- 
-<section id='projects'>
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-6">
                 <header>
                     <h6 class="letters">Projects</h6>
                 </header>
-                    <img src="./assets/images/gBook.png" class="img-fluid">   
-                    <img src="./assets/images/popv1876.png" class="img-fluid">   
-
             </div>
-        </div>  
-    </div>
-</section> -->
+            <div class="col-md-6">
+            </div>    
+        </div>
+
+        <div class="row" id='projects'>
+            <div class="col-md-4 text-center">
+                <img src="./assets/images/gBook.png" class="img-fluid" style="width: 30%;">   
+            </div>       
+            <div class="col-md-4 text-center">
+                <img src="./assets/images/popv1876.png" class="img-fluid">   
+            </div>      
+            <div class="col-md-4 text-center">
+            </div>
+        </div>     
+
+    </div>  
+</section>
 
 </body>
 
