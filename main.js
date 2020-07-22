@@ -14,7 +14,7 @@ function showContent(sectionParam, labelParam, imgParam, achievementParam) {
 
     labelOptions.forEach(label => {
         if (label === labelParam) {
-            // document.getElementById(label).style.textDecoration = 'underline'
+            document.getElementById(label).style.textDecoration = 'underline'
             document.getElementById(label).style.color = 'rgb(80, 45, 127)'
             document.getElementById(label).style.fontWeight = '800'
         } else {
