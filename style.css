@@ -25,8 +25,6 @@ a {
 }
 
 .letters {
-    /* margin-bottom: -10px; */
-    /* margin-top: -40px; */
     font-size: 70px;
     font-weight: 800;
     mix-blend-mode: darken;
@@ -71,13 +69,11 @@ a {
 }
 
 #content {
-    color: black;
-    padding-top: 3%;
+    padding-top: 0%;
 }
 
 #projects {
     margin-top: 2%;
-    /* background-color: rgb(250, 250, 250); */
 }
 
 .social-links a {
@@ -118,5 +114,8 @@ a {
     #projects img {
         margin: 13% 0;
         /* background-color: rgb(250, 250, 250); */
+    }
+    .achievements p {
+        font-size: 12px;
     }
 }
